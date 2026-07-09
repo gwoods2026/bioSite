@@ -3,8 +3,7 @@
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+
     padding: 20px;
     box-sizing: border-box}
 
@@ -32,7 +31,16 @@ body {
     font-size: 18px}
 
 a:link {
-    color: #AE9B72}
+    color: #2C79CE}
 
 a:visited {
-    color: #2C79CE}
+    color: #1837DC}
+
+footer {
+    width: 100%;
+    padding: 20px 0}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px}
